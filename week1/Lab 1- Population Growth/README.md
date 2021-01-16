@@ -10,5 +10,5 @@ Complete the implementation of `population.c`, such that it calculates the numbe
 * Your program should then calculate the (integer) number of years required for the population to reach at least the size of the end value.
 * Finally, your program should print the number of years required for the llama population to reach that end size, as by printing to the terminal `Years: n`, where n is the number of years.
 
-* [Python Solution]()
-* [C Solution]()
+* [Python Solution](https://github.com/doyinsolamiolaoye/Harvard-CS50x/blob/main/week1/Lab%201-%20Population%20Growth/population_growth.py)
+* [C Solution](https://github.com/doyinsolamiolaoye/Harvard-CS50x/blob/main/week1/Lab%201-%20Population%20Growth/population_growth.c)
