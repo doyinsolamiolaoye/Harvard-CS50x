@@ -11,15 +11,12 @@ while True:
     else: break
         
 while True:       
-    try:
-        end = int(input("Enter an end value: "))
+    try: end = int(input("Enter an end value: "))
     except ValueError:
         print("Enter an integer value!!!!!!!!!")
         continue
-    if end < start:
-        print("Enter a value greater than the start value: ", start)
-    else:
-        break
+    if end < start: print("Enter a value greater than the start value: ", start)
+    else: break
 
 n = start
 y = 0
