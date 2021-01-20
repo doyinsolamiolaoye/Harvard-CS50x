@@ -1,11 +1,13 @@
 # solution in python3
 
 while True:
-    try: start = int(input("Enter the start size: "))
+    try: 
+        start = int(input("Enter the start size: "))
     except ValueError:
         print("Enter an integer value!!!!!!!!!")
         continue
-    if start < 9: print("Enter a value greater than 9!!")
+    if start < 9: 
+        print("Enter a value greater than 9!!")
     else: break
         
 while True:       
