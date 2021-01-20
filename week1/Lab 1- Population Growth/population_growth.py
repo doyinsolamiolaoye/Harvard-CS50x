@@ -8,7 +8,8 @@ while True:
         continue
     if start < 9: 
         print("Enter a value greater than 9!!")
-    else: break
+    else: 
+        break
         
 while True:       
     try: end = int(input("Enter an end value: "))
