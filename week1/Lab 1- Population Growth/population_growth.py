@@ -6,18 +6,20 @@ while True:
     except ValueError:
         print("Enter an integer value!!!!!!!!!")
         continue
-    if start < 9: 
-        print("Enter a value greater than 9!!")
-    else: 
-        break
+    else:
+        if start < 9: 
+            print("Enter a value greater than 9!!")
+        else: 
+            break
         
 while True:       
     try: end = int(input("Enter an end value: "))
     except ValueError:
         print("Enter an integer value!!!!!!!!!")
         continue
-    if end < start: print("Enter a value greater than the start value: ", start)
-    else: break
+    else:
+        if end < start: print("Enter a value greater than the start value: ", start)
+        else: break
 
 n = start
 y = 0
